@@ -1,0 +1,8 @@
+id="6v1n0l"
+venv/
+__pycache__/
+db.sqlite3
+*.pyc
+.env
+media/
+staticfiles/
