@@ -1,0 +1,117 @@
+<div class="sidebar">
+
+    <!-- LOGO -->
+    <div>
+
+        <div class="logo">
+            <h1>SP</h1>
+        </div>
+
+        <div class="profile-section">
+            <h2>Shivam Patel</h2>
+            <p>AIML & Computer Vision Enthusiast</p>
+        </div>
+
+        <!-- NAVIGATION -->
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="/"
+                   class="{% if request.path == '/' %}active{% endif %}">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="/about/"
+                   class="{% if request.path == '/about/' %}active{% endif %}">
+                    <i class="fas fa-user"></i>
+                    <span>About</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="/skills/"
+                   class="{% if request.path == '/skills/' %}active{% endif %}">
+                    <i class="fas fa-layer-group"></i>
+                    <span>Skills</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="/projects/"
+                   class="{% if request.path == '/projects/' %}active{% endif %}">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Projects</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="/experience/"
+                   class="{% if request.path == '/experience/' %}active{% endif %}">
+                    <i class="fas fa-trophy"></i>
+                    <span>Experience</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="/resume/"
+                   class="{% if request.path == '/resume/' %}active{% endif %}">
+                    <i class="fas fa-file-alt"></i>
+                    <span>Resume</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="/contact/"
+                   class="{% if request.path == '/contact/' %}active{% endif %}">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <!-- SOCIAL ICONS -->
+
+    <div class="social-icons">
+
+        <!-- GitHub -->
+        <a href="https://github.com/shivampa859"
+           target="_blank">
+
+            <i class="fab fa-github"></i>
+
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/shivam-patel-315939304"
+       target="_blank">
+
+        <i class="fa-brands fa-linkedin-in"></i>
+
+    </a>
+
+        <!-- Kaggle -->
+        <a href="https://www.kaggle.com/shpatel34"
+       target="_blank">
+
+        <i class="fa-brands fa-kaggle"></i>
+
+    </a>
+
+        <!-- Email -->
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shivampatel939957@gmail.com"
+                   target="_blank">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                </a>
+
+    </div>
+
+</div>

@@ -1,0 +1,333 @@
+.about-page{
+    width: 100%;
+}
+
+/* TOP SECTION */
+
+.about-top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 60px;
+
+    margin-bottom: 50px;
+}
+
+.about-text-section{
+    flex: 1;
+}
+
+.about-text-section h4{
+    color: #8b5cf6;
+
+    margin-bottom: 20px;
+}
+
+.about-text-section h1{
+    font-size: 70px;
+
+    margin-bottom: 20px;
+}
+
+.purple-line{
+    width: 70px;
+    height: 4px;
+
+    background-color: #8b5cf6;
+
+    border-radius: 10px;
+
+    margin-bottom: 30px;
+}
+
+.about-text-section p{
+    color: #a1a1aa;
+
+    line-height: 1.9;
+
+    margin-bottom: 25px;
+
+    max-width: 700px;
+
+    font-size: 18px;
+}
+
+/* IMAGE CARD */
+
+.about-image-card{
+    width: 460px;
+
+    background-color: #111827;
+
+    border-radius: 25px;
+
+    padding: 35px;
+
+    border: 1px solid rgba(255,255,255,0.05);
+
+    position: relative;
+}
+
+.about-image-circle{
+    width: 280px;
+    height: 280px;
+
+    border-radius: 50%;
+
+    overflow: hidden;
+
+    border: 4px solid #8b5cf6;
+
+    margin: auto;
+
+    box-shadow: 0px 0px 40px rgba(139,92,246,0.5);
+}
+
+.about-image-circle img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center 20%;
+}
+
+/* ORBITS */
+
+.orbit{
+    position: absolute;
+
+    border: 1px solid rgba(139,92,246,0.4);
+
+    border-radius: 50%;
+}
+
+.orbit1{
+    width: 360px;
+    height: 140px;
+
+    top: 90px;
+    left: 50px;
+
+    transform: rotate(10deg);
+}
+
+.orbit2{
+    width: 360px;
+    height: 140px;
+
+    top: 90px;
+    left: 50px;
+
+    transform: rotate(-10deg);
+}
+
+/* STATUS */
+
+.availability-row{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+
+.location-box,
+.status-box{
+    background-color: #0f172a;
+
+    padding: 12px 18px;
+
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    color: white;
+
+    font-size: 14px;
+}
+
+.location-box i{
+    color: #8b5cf6;
+}
+
+.green-dot{
+    width: 10px;
+    height: 10px;
+
+    background-color: #22c55e;
+
+    border-radius: 50%;
+}
+
+/* BOTTOM GRID */
+
+.about-bottom-grid{
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+
+    gap: 25px;
+
+    margin-bottom: 40px;
+}
+
+.about-card{
+    background-color: #111827;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+.about-card h2{
+    margin-bottom: 30px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    font-size: 24px;
+}
+
+.about-card h2 i{
+    color: #8b5cf6;
+}
+
+/* TIMELINE */
+
+.timeline-item{
+    margin-bottom: 35px;
+}
+
+.timeline-item span{
+    color: #8b5cf6;
+
+    font-size: 14px;
+}
+
+.timeline-item h3{
+    margin: 10px 0;
+}
+
+.timeline-item p{
+    color: #9ca3af;
+
+    line-height: 1.7;
+}
+
+/* TECH */
+
+.tech-category{
+    margin-bottom: 30px;
+}
+
+.tech-category h4{
+    margin-bottom: 18px;
+
+    color: #d4d4d8;
+}
+
+.tech-icons{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 15px;
+}
+
+.tech-item{
+    background-color: #18181b;
+
+    padding: 12px 18px;
+
+    border-radius: 12px;
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.tech-item i{
+    color: #8b5cf6;
+}
+
+/* SKILLS */
+
+.skill{
+    margin-bottom: 25px;
+}
+
+.skill-header{
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+}
+
+.progress-bar{
+    width: 100%;
+    height: 10px;
+
+    background-color: #1e293b;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.progress-fill{
+    height: 100%;
+
+    background-color: #8b5cf6;
+
+    border-radius: 10px;
+}
+
+.width95{
+    width: 95%;
+}
+
+.width90{
+    width: 90%;
+}
+
+.width85{
+    width: 85%;
+}
+
+/* QUOTE */
+
+.quote-box{
+    background-color: #111827;
+
+    border-radius: 20px;
+
+    padding: 35px;
+
+    border: 1px solid rgba(255,255,255,0.05);
+
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.quote-box i{
+    font-size: 40px;
+
+    color: #8b5cf6;
+}
+
+.quote-box p{
+    font-size: 22px;
+
+    color: #d4d4d8;
+}

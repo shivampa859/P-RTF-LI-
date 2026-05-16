@@ -1,0 +1,331 @@
+.skills-page{
+    width: 100%;
+}
+
+/* HERO */
+
+.skills-hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 30px;
+
+    margin-bottom: 30px;
+}
+
+.skills-left{
+    flex: 1;
+}
+
+.skills-left h4{
+    color: #8b5cf6;
+
+    margin-bottom: 10px;
+
+    font-size: 15px;
+}
+
+.skills-left h1{
+    font-size: 46px;
+
+    margin-bottom: 14px;
+
+    line-height: 1.1;
+}
+
+.purple-line{
+    width: 60px;
+    height: 3px;
+
+    background-color: #8b5cf6;
+
+    border-radius: 10px;
+
+    margin-bottom: 18px;
+}
+
+.skills-left p{
+    color: #a1a1aa;
+
+    line-height: 1.7;
+
+    font-size: 14px;
+
+    max-width: 500px;
+}
+
+/* RIGHT */
+
+.skills-right{
+    flex: 1;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brain-card{
+    width: 150px;
+    height: 150px;
+
+    border-radius: 20px;
+
+    background-color: #111827;
+
+    border: 2px solid #8b5cf6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 0px 25px rgba(139,92,246,0.3);
+
+    z-index: 10;
+}
+
+.brain-card i{
+    font-size: 65px;
+
+    color: #8b5cf6;
+}
+
+/* ORBITS */
+
+.orbit{
+    position: absolute;
+
+    border: 1px solid rgba(139,92,246,0.25);
+
+    border-radius: 50%;
+}
+
+.orbit1{
+    width: 260px;
+    height: 90px;
+
+    transform: rotate(10deg);
+}
+
+.orbit2{
+    width: 260px;
+    height: 90px;
+
+    transform: rotate(-10deg);
+}
+
+/* SECTION TITLE */
+
+.section-title{
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+
+    margin-bottom: 16px;
+}
+
+.section-title span{
+    width: 10px;
+    height: 10px;
+
+    background-color: #8b5cf6;
+
+    border-radius: 50%;
+}
+
+.section-title h2{
+    font-size: 20px;
+}
+
+/* SKILLS GRID */
+
+.skills-grid{
+    display: grid;
+
+    grid-template-columns: repeat(5,1fr);
+
+    gap: 12px;
+
+    margin-bottom: 30px;
+}
+
+.skill-card{
+    background-color: #111827;
+
+    border-radius: 14px;
+
+    padding: 16px;
+
+    border: 1px solid rgba(255,255,255,0.05);
+
+    transition: 0.3s;
+}
+
+.skill-card:hover{
+    border-color: #8b5cf6;
+
+    transform: translateY(-3px);
+}
+
+.card-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 14px;
+}
+
+.card-top h3{
+    font-size: 15px;
+
+    line-height: 1.4;
+}
+
+.card-top i{
+    font-size: 16px;
+
+    color: #8b5cf6;
+}
+
+.skill-items{
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+.skill-items span{
+    color: #d4d4d8;
+
+    font-size: 13px;
+}
+
+/* COMPETENCIES */
+
+.competencies-grid{
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+
+    gap: 14px;
+
+    margin-bottom: 30px;
+}
+
+.competency-card{
+    background-color: #111827;
+
+    border-radius: 14px;
+
+    padding: 18px;
+
+    border: 1px solid rgba(255,255,255,0.05);
+
+    transition: 0.3s;
+}
+
+.competency-card:hover{
+    border-color: #8b5cf6;
+
+    transform: translateY(-3px);
+}
+
+.competency-card i{
+    font-size: 22px;
+
+    color: #8b5cf6;
+
+    margin-bottom: 14px;
+}
+
+.competency-card h3{
+    margin-bottom: 10px;
+
+    font-size: 16px;
+
+    line-height: 1.4;
+}
+
+.competency-card p{
+    color: #9ca3af;
+
+    line-height: 1.6;
+
+    font-size: 13px;
+}
+
+/* TOOLS */
+
+.tools-grid{
+    display: grid;
+
+    grid-template-columns: repeat(6,1fr);
+
+    gap: 12px;
+
+    margin-bottom: 30px;
+}
+
+.tool-card{
+    background-color: #111827;
+
+    border-radius: 14px;
+
+    padding: 18px 12px;
+
+    text-align: center;
+
+    border: 1px solid rgba(255,255,255,0.05);
+
+    transition: 0.3s;
+}
+
+.tool-card:hover{
+    border-color: #8b5cf6;
+
+    transform: translateY(-3px);
+}
+
+.tool-card i{
+    font-size: 24px;
+
+    color: #8b5cf6;
+
+    margin-bottom: 12px;
+}
+
+.tool-card h3{
+    font-size: 13px;
+}
+
+/* QUOTE */
+
+.skills-quote{
+    background-color: #111827;
+
+    border-radius: 14px;
+
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 14px;
+
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+.skills-quote i{
+    font-size: 24px;
+
+    color: #8b5cf6;
+}
+
+.skills-quote p{
+    font-size: 16px;
+
+    color: #d4d4d8;
+}

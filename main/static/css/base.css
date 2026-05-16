@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #020617;
+    color: white;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.container{
+    display: flex;
+}
+
+/* SIDEBAR WRAPPER */
+
+.sidebar-wrapper{
+    width: 85px;
+    flex-shrink: 0;
+
+    transition: width 0.35s ease;
+}
+
+/* WHEN HOVERED */
+
+.sidebar-wrapper:hover{
+    width: 240px;
+}
+
+/* MAIN CONTENT */
+
+.main-content{
+    width: 100%;
+
+    min-height: 100vh;
+
+    padding: 20px;
+
+    transition: all 0.35s ease;
+}

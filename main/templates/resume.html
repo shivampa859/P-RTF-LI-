@@ -1,0 +1,381 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/resume.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="resume-page">
+
+    <!-- HERO -->
+
+    <div class="resume-hero">
+
+        <div class="resume-left">
+
+            <h4>My Resume</h4>
+
+            <h1>Resume</h1>
+
+            <div class="purple-line"></div>
+
+            <p>
+                A summary of my education, skills,
+                experience and achievements.
+            </p>
+
+        </div>
+
+        <div class="resume-right">
+
+            <div class="orbit orbit1"></div>
+            <div class="orbit orbit2"></div>
+
+            <div class="resume-icon-box">
+
+                <i class="fa-solid fa-file-lines"></i>
+
+            </div>
+
+            <div class="download-circle">
+
+                <i class="fa-solid fa-download"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- TOP CARDS -->
+
+    <div class="top-resume-grid">
+
+        <!-- ABOUT -->
+
+        <div class="resume-card about-card">
+
+            <div class="card-title">
+
+                <i class="fa-solid fa-user"></i>
+
+                <h2>About Me</h2>
+
+            </div>
+
+            <p>
+                Hi! I'm Shivam Patel, a Computer Science student specializing in Data Science and Artificial Intelligence. I’m passionate about building intelligent systems, solving real-world problems with machine learning, and transforming complex data into meaningful insights through innovative AI-driven solutions.
+            </p>
+
+            <div class="mini-info-grid">
+
+                <div class="mini-box">
+
+                    <i class="fa-solid fa-calendar"></i>
+
+                    <div>
+                        <h3>22</h3>
+                        <span>Age</span>
+                    </div>
+
+                </div>
+
+                <div class="mini-box">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <div>
+                        <h3>India</h3>
+                        <span>Location</span>
+                    </div>
+
+                </div>
+
+                <div class="mini-box">
+
+                    <i class="fa-solid fa-graduation-cap"></i>
+
+                    <div>
+                        <h3>B.Tech</h3>
+                        <span>Education</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- DOWNLOAD -->
+
+        <div class="resume-card download-card">
+
+            <div class="card-title">
+
+                <i class="fa-solid fa-download"></i>
+
+                <h2>Download Resume</h2>
+
+            </div>
+
+            <p>
+                Download my resume in PDF format
+                to view offline or share.
+            </p>
+
+<a href="{% static 'resume/ShivamPatel.pdf' %}"
+   download
+   class="download-btn">
+
+    <i class="fa-solid fa-download"></i>
+
+    Download Resume
+
+</a>
+
+            <span class="updated-text">
+                Last updated: May 2026
+            </span>
+
+        </div>
+
+    </div>
+
+    <!-- MIDDLE GRID -->
+
+    <div class="middle-grid">
+
+        <!-- EDUCATION -->
+
+        <div class="resume-card education-card">
+
+            <div class="card-title">
+
+                <i class="fa-solid fa-graduation-cap"></i>
+
+                <h2>Education</h2>
+
+            </div>
+
+            <div class="education-item">
+
+                <span class="year">2022 - 2026</span>
+
+                <h3>B.Tech in Computer Science</h3>
+
+                <p>Data Science Specialization</p>
+
+            </div>
+
+            <div class="education-item">
+
+                <span class="year">2021 - 2022</span>
+
+                <h3>Higher Secondary Education</h3>
+
+                <p>Science Stream</p>
+
+            </div>
+
+            <div class="education-item">
+
+                <span class="year">2019 - 2020</span>
+
+                <h3>Secondary Education</h3>
+
+                <p>CBSE Board</p>
+
+            </div>
+
+        </div>
+
+        <!-- CERTIFICATIONS -->
+
+        <div class="resume-card certification-card">
+
+            <div class="card-title">
+
+                <i class="fa-solid fa-award"></i>
+
+                <h2>Certifications</h2>
+
+            </div>
+
+<div class="cert-item">
+    <span>Data Science Internship - 1Stop.ai</span>
+    <small>2025</small>
+</div>
+
+<div class="cert-item">
+    <span>Deep Learning Internship - UptoSkills</span>
+    <small>2025</small>
+</div>
+
+<div class="cert-item">
+    <span>Intern of the Month - UptoSkills</span>
+    <small>2025</small>
+</div>
+
+<div class="cert-item">
+    <span>Project Completion Certificate - Data Science</span>
+    <small>2025</small>
+</div>
+
+<div class="cert-item">
+    <span>AWS Cloud Practitioner</span>
+    <small>2024</small>
+</div>
+
+<div class="cert-item">
+    <span>Google Data Analytics</span>
+    <small>2024</small>
+</div>
+
+        </div>
+
+    </div>
+
+    <!-- SKILLS -->
+
+    <div class="resume-card skills-card">
+
+        <div class="card-title">
+
+            <i class="fa-solid fa-code"></i>
+
+            <h2>Technical Skills</h2>
+
+        </div>
+
+        <div class="skills-wrapper">
+
+            <div class="skill-group">
+
+                <h3>Languages</h3>
+
+                <div class="tags">
+
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>c</span>
+                    <span>Django</span>
+
+                </div>
+
+            </div>
+
+            <div class="skill-group">
+
+                <h3>Machine Learning</h3>
+
+                <div class="tags">
+
+                    <span>Scikit-learn</span>
+                    <span>TensorFlow</span>
+                    <span>PyTorch</span>
+                    <span>SVM</span>
+
+                </div>
+
+            </div>
+
+            <div class="skill-group">
+
+                <h3>Visualization</h3>
+
+                <div class="tags">
+
+                    <span>Pandas</span>
+                    <span>NumPy</span>
+                    <span>Matplotlib</span>
+                    <span>Seaborn</span>
+
+                </div>
+
+            </div>
+
+            <div class="skill-group">
+
+                <h3>Platforms</h3>
+
+                <div class="tags">
+
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>VS Code</span>
+                    <span>Google Colab</span>
+                    <span>Jupyter</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- CONTACT -->
+
+    <div class="resume-contact">
+
+        <div class="contact-left">
+
+            <div class="contact-icon">
+
+                <i class="fa-solid fa-paper-plane"></i>
+
+            </div>
+
+            <div>
+
+                <h2>Let's Connect!</h2>
+
+                <p>
+                    I'm always open to discussing opportunities,
+                    collaborations and projects.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="contact-buttons">
+
+<!-- Contact Button -->
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=shivampatel939957@gmail.com"
+   target="_blank"
+   class="contact-btn">
+
+    <i class="fa-solid fa-envelope"></i>
+
+    Contact Me
+
+</a>
+
+<!-- LinkedIn -->
+<a href="https://www.linkedin.com/in/shivam-patel-315939304" 
+   target="_blank" 
+   class="social-btn">
+
+    <i class="fa-brands fa-linkedin-in"></i>
+
+</a>
+
+<!-- GitHub -->
+<a href="https://github.com/shivampa859" 
+   target="_blank" 
+   class="social-btn">
+
+    <i class="fa-brands fa-github"></i>
+
+</a>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

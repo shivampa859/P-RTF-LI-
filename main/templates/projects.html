@@ -1,0 +1,385 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/projects.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="projects-page">
+
+    <!-- HERO SECTION -->
+
+    <div class="projects-hero">
+
+        <div class="projects-left">
+
+            <h4>My Work</h4>
+
+            <h1>Projects</h1>
+
+            <div class="purple-line"></div>
+
+            <p>
+                A collection of data science and machine learning
+                projects focused on solving real-world problems
+                using AI and intelligent systems.
+            </p>
+
+        </div>
+
+        <div class="projects-right">
+
+            <div class="orbit orbit1"></div>
+            <div class="orbit orbit2"></div>
+
+            <div class="hero-icons">
+
+                <div class="hero-card">
+                    <i class="fa-solid fa-chart-column"></i>
+                </div>
+
+                <div class="hero-card main-card">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div class="hero-card">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- FILTERS -->
+
+    <div class="project-filters">
+
+        <button class="active-filter">
+            All Projects
+        </button>
+
+    </div>
+
+<!-- PROJECTS GRID -->
+
+<div class="projects-grid">
+
+    <!-- ================= PROJECT 1 ================= -->
+
+    <div class="project-card">
+
+        <div class="project-image">
+
+            <img src="{% static 'images/Visionforge.png' %}"
+                 alt="VisionForge">
+
+            <span class="category-tag">
+                Deep Learning
+            </span>
+
+        </div>
+
+        <div class="project-content">
+
+            <h2>VisionForge</h2>
+
+            <p>
+                Developed a ResNet-18 image classifier on CIFAR-10
+                achieving high validation accuracy with strong
+                generalization techniques.
+            </p>
+
+            <div class="tech-stack">
+
+                <span>Python</span>
+                <span>PyTorch</span>
+                <span>ResNet-18</span>
+                <span>Django</span>
+
+            </div>
+
+            <a href="https://www.kaggle.com/datasets/ayush1220/cifar10"
+               target="_blank"
+               class="dataset-box">
+
+                <i class="fa-solid fa-database"></i>
+
+                <span>CIFAR-10 Dataset</span>
+
+            </a>
+
+            <div class="project-buttons">
+
+                <a href="https://github.com/shivampa859/visionforge-ai"
+                   target="_blank"
+                   class="github-btn">
+
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+
+                </a>
+
+                <a href="https://visionforge-ai-7ur2.onrender.com"
+                   target="_blank"
+                   class="demo-btn">
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    Live Demo
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= PROJECT 2 ================= -->
+
+    <div class="project-card">
+
+        <div class="project-image">
+
+            <img src="{% static 'images/SMS Spam.png' %}"
+                 alt="Spam Shield">
+
+            <span class="category-tag nlp-tag">
+                NLP
+            </span>
+
+        </div>
+
+        <div class="project-content">
+
+            <h2>Spam Shield SMS Sentinel</h2>
+
+            <p>
+                Built an NLP pipeline for SMS spam detection
+                using TF-IDF vectorization and machine learning
+                classification techniques.
+            </p>
+
+            <div class="tech-stack">
+
+                <span>Python</span>
+                <span>NLTK</span>
+                <span>Scikit-learn</span>
+                <span>Naive Bayes</span>
+
+            </div>
+
+            <a href="https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset"
+               target="_blank"
+               class="dataset-box">
+
+                <i class="fa-solid fa-database"></i>
+
+                <span>SMS Spam Collection Dataset</span>
+
+            </a>
+
+            <div class="project-buttons">
+
+                <a href="https://github.com/shivampa859/Spam-Shield-SMS-Sentinel"
+                   target="_blank"
+                   class="github-btn">
+
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+
+                </a>
+
+                <a href="https://shivampa859-spam-shield-sms-sentinel-app-i4sb2y.streamlit.app/"
+                   target="_blank"
+                   class="demo-btn">
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    Live Demo
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= PROJECT 3 ================= -->
+
+    <div class="project-card">
+
+        <div class="project-image">
+
+            <img src="{% static 'images/weapon.png' %}"
+                 alt="Weapon Detection">
+
+            <span class="category-tag">
+                Computer Vision
+            </span>
+
+        </div>
+
+        <div class="project-content">
+
+            <h2>Weapon Detection System</h2>
+
+            <p>
+                Built a real-time AI surveillance system using
+                YOLOv8 and OpenCV for weapon detection
+                in live video streams.
+            </p>
+
+            <div class="tech-stack">
+
+                <span>Python</span>
+                <span>YOLOv8</span>
+                <span>OpenCV</span>
+                <span>Streamlit</span>
+
+            </div>
+
+            <a href="https://universe.roboflow.com/shivam-1iztu/weapon-detection-cctv-v3-dataset-zthmt/dataset/1"
+               target="_blank"
+               class="dataset-box">
+
+                <i class="fa-solid fa-database"></i>
+
+                <span>Roboflow Weapons Dataset</span>
+
+            </a>
+
+            <div class="project-buttons">
+
+                <a href="https://github.com/shivampa859/Weapon-Detection-Model"
+                   target="_blank"
+                   class="github-btn">
+
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+
+                </a>
+
+                <a href="#"
+                   target="_blank"
+                   class="demo-btn">
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    Live Demo
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= PROJECT 4 ================= -->
+
+    <div class="project-card">
+
+        <div class="project-image">
+
+            <img src="{% static 'images/port.png' %}"
+                 alt="PØRTFØLIØ">
+
+            <span class="category-tag nlp-tag">
+                NLP
+            </span>
+
+        </div>
+
+        <div class="project-content">
+
+            <h2>PØRTFØLIØ</h2>
+
+            <p>
+                Developed a personal portfolio website using Django
+                to showcase projects, skills, and experience with
+                a modern and responsive design.
+            </p>
+
+            <div class="tech-stack">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Django</span>
+            </div>
+
+            <div class="project-buttons">
+
+                <a href="https://github.com/shivampa859/Spam-Shield-SMS-Sentinel"
+                   target="_blank"
+                   class="github-btn">
+
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+
+                </a>
+
+                <a href="https://shivampa859-spam-shield-sms-sentinel-app-i4sb2y.streamlit.app/"
+                   target="_blank"
+                   class="demo-btn">
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    Live Demo
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- GITHUB CTA SECTION -->
+
+    <div class="github-section">
+
+        <div class="github-left">
+
+            <div class="rocket-icon">
+
+                <i class="fa-solid fa-rocket"></i>
+
+            </div>
+
+            <div>
+
+                <h2>
+                    Want to explore more projects?
+                </h2>
+
+                <p>
+                    Visit my GitHub profile to explore additional
+                    repositories, experiments, and AI-based solutions.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- GITHUB PROFILE BUTTON -->
+
+        <a href="https://github.com/shivampa859"
+           target="_blank"
+           class="github-profile-btn">
+
+            View GitHub Profile
+
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+        </a>
+
+    </div>
+
+</div>
+
+{% endblock %}

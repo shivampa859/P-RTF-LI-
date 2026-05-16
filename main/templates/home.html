@@ -1,0 +1,152 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="home-wrapper">
+
+    <!-- HERO SECTION -->
+
+    <div class="hero-section">
+
+        <div class="hero-left">
+
+            <div class="intro-badge">
+                Hi, I'm
+            </div>
+
+            <h1>
+                Shivam <span>Patel</span>
+            </h1>
+
+            <h2>
+                Computer Science(Data Science) Student | ML,DL,NLP and Computer Vision Enthusiast |
+            </h2>
+
+            <p>
+                Always ready to build intelligent systems that learn from data and
+                solve real-world problems.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="https://www.linkedin.com/in/shivam-patel-315939304"
+   target="_blank"
+   class="primary-btn">
+
+    View My Work
+
+</a>
+
+                <a href="{% static 'resume/ShivamPatel.pdf' %}"
+   download
+   class="secondary-btn">
+
+    <i class="fa-solid fa-download"></i>
+
+    Download Resume
+
+</a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-right">
+
+            <div class="particles particle1"></div>
+            <div class="particles particle2"></div>
+            <div class="particles particle3"></div>
+            <div class="particles particle4"></div>
+
+            <div class="image-circle">
+
+                <img src="{% static 'images/profile.png' %}" alt="Profile">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- STATS SECTION -->
+
+    <div class="stats-container">
+
+        <div class="stat-card">
+            <h3>6+</h3>
+            <p>ML Projects Completed</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>4+</h3>
+            <p>Years of Learning</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>8+</h3>
+            <p>Datasets Analyzed</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>90%+</h3>
+            <p>Model's Accuracy in mostly projects </p>
+        </div>
+
+        <div class="stat-card">
+            <h3>8+</h3>
+            <p>Google Colab Notebooks</p>
+        </div>
+
+    </div>
+
+    <!-- SERVICES SECTION -->
+
+    <div class="services-section">
+
+        <h2>What I Do</h2>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>Data Analysis</h3>
+                <p>Exploratory Data Analysis & Visualization</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-robot"></i>
+                <h3>Machine Learning</h3>
+                <p>Supervised & Unsupervised Learning</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-brain"></i>
+                <h3>Deep Learning</h3>
+                <p>TensorFlow, Keras & PyTorch</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-eye"></i>
+                <h3>Computer Vision</h3>
+                <p>Image Processing & Object Detection</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-comment-dots"></i>
+                <h3>NLP</h3>
+                <p>Text Analysis & Chatbots</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

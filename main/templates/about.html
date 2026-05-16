@@ -1,0 +1,318 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/about.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="about-page">
+
+    <!-- TOP SECTION -->
+
+    <div class="about-top-section">
+
+        <!-- LEFT CONTENT -->
+
+        <div class="about-text-section">
+
+            <h4>Get To Know</h4>
+
+            <h1>About Me</h1>
+
+            <div class="purple-line"></div>
+
+            <p>
+                I’m a Computer Science student specializing in Data Science, passionate about transforming raw data into actionable insights and developing intelligent AI-driven solutions for real-world challenges.
+            </p>
+
+            <p>
+                My interests include Data Analytics, Machine Learning, Deep Learning, Computer Vision, and NLP. I enjoy building impactful projects, exploring new technologies, and continuously improving my problem-solving skills through practical implementation and research.
+            </p>
+
+        </div>
+
+        <!-- RIGHT IMAGE -->
+
+        <div class="about-image-card">
+
+            <div class="orbit orbit1"></div>
+            <div class="orbit orbit2"></div>
+
+            <div class="about-image-circle">
+
+                <img src="{% static 'images/profile.png' %}" alt="Profile">
+
+            </div>
+
+            <div class="availability-row">
+
+                <div class="location-box">
+                    <i class="fa-solid fa-location-dot"></i>
+                    India
+                </div>
+
+                <div class="status-box">
+                    <span class="green-dot"></span>
+                    Available for Opportunities
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- BOTTOM GRID -->
+
+    <div class="about-bottom-grid">
+
+        <!-- JOURNEY -->
+
+        <div class="about-card">
+
+            <h2>
+                <i class="fa-solid fa-user"></i>
+                My Journey
+            </h2>
+
+            <div class="timeline-item">
+
+                <span>2022 - 2023</span>
+
+                <h3>Data Science Student</h3>
+
+                <p>
+                    Start with Basics of Python,Machine Learning and Data Analysis.
+                </p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <span>2023 - 2024</span>
+
+                <h3>Machine Learning Enthusiast</h3>
+
+                <p>
+                    Explored ML algorithms in depth and built small projects to apply my knowledge.
+                </p>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <span>2024 - 2025</span>
+
+                <h3>Advanced Machine Learning, Deep Learning and Computer Vision</h3>
+
+                <p>
+                    Built strong foundation in advanced ML techniques, deep learning frameworks and computer vision.
+                </p>
+
+            </div>
+
+        </div>
+        
+
+        <!-- TECH STACK -->
+
+        <div class="about-card">
+
+            <h2>
+                <i class="fa-solid fa-code"></i>
+                What I Work With
+            </h2>
+
+            <div class="tech-category">
+
+                <h4>Languages</h4>
+
+                <div class="tech-icons">
+
+                    <div class="tech-item">
+                        <i class="fa-brands fa-python"></i>
+                        <span>Python</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <i class="fa-solid fa-database"></i>
+                        <span>SQL</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <i class="fa-brands fa-django"></i>
+                        <span>Django</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="tech-category">
+
+                <h4>Libraries & Frameworks</h4>
+
+                <div class="tech-icons">
+
+                    <div class="tech-item">
+                        <span>Pandas</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <span>NumPy</span>
+                    </div>
+                    <div class="tech-item">
+                        <span>Matplotlib</span>
+                    </div>
+                    <div class="tech-item">
+                        <span>Seaborn</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <span>Scikit-learn</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <span>TensorFlow</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <span>PyTorch</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="tech-category">
+
+                <h4>Tools & Platforms</h4>
+
+                <div class="tech-icons">
+
+                    <div class="tech-item">
+                        <span>Jupyter</span>
+                    </div>
+                    <div class="tech-item">
+                        <span>Google Colab</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <span>VS Code</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <span>Git</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <span>GitHub</span>
+                    </div>
+
+                    <div class="tech-item">
+                        <span>Kaggle</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- SKILLS -->
+
+        <div class="about-card">
+
+            <h2>
+                <i class="fa-solid fa-star"></i>
+                Core Competencies
+            </h2>
+
+            <div class="skill">
+
+                <div class="skill-header">
+                    <span>Python Programming</span>
+                    <span>90%</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress-fill width90"></div>
+                </div>
+
+            </div>
+
+            <div class="skill">
+
+                <div class="skill-header">
+                    <span>Machine Learning</span>
+                    <span>90%</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress-fill width90"></div>
+                </div>
+
+            </div>
+
+            <div class="skill">
+
+                <div class="skill-header">
+                    <span>Deep Learning</span>
+                    <span>85%</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress-fill width85"></div>
+                </div>
+
+            </div>
+
+            <div class="skill">
+
+                <div class="skill-header">
+                    <span>Deep Learning</span>
+                    <span>90%</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress-fill width90"></div>
+                </div>
+
+            </div>
+
+            <div class="skill">
+
+                <div class="skill-header">
+                    <span>Problem Solving</span>
+                    <span>90%</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress-fill width90"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- QUOTE -->
+
+    <div class="quote-box">
+
+        <i class="fa-solid fa-quote-left"></i>
+
+        <p>
+            Turning data into meaningful insights that drive smarter decisions and innovative solutions.
+        </p>
+
+    </div>
+
+</div>
+
+{% endblock %}
